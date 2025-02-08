@@ -19,7 +19,6 @@ class StringCalculator {
     int sum = 0;
     // Loop through the list of numbers
     for (int number in numberList) {
-      // Convert the string to an integer and add it to the sum
       if (number < 0) {
         negatives.add(number);
       }
